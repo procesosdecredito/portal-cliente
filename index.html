@@ -64,13 +64,13 @@
 
         function DispersionPlatform() {
             const [isLoggedIn, setIsLoggedIn] = useState(false);
-            const [loginData, setLoginData] = useState({ user: '', password: '' });
+            const [loginData, setLoginData] = useState({ user: '0025019', password: '8547654' });
 
             // Información de dispersión del cliente
             const dispersionInfo = {
                 clientName: "Hugo Sánchez Cedillo",
                 contractNumber: "DISP-2025-0025019",
-                amountToDisperse: 5363242,
+                amountToDisperse: 5517901,
                 dispersionDate: "2025-12-23",
                 status: "Pendiente",
                 concept: "Devolución",
@@ -161,7 +161,7 @@
                         <div className="bg-white rounded-2xl shadow-lg p-6 mb-6">
                             <div className="flex justify-between items-center">
                                 <div>
-                                    <h1 className="text-3xl font-bold text-gray-800">Bienvenida, {dispersionInfo.clientName}</h1>
+                                    <h1 className="text-3xl font-bold text-gray-800">Bienvenido, {dispersionInfo.clientName}</h1>
                                     <p className="text-gray-600 mt-1">Folio: {dispersionInfo.contractNumber}</p>
                                 </div>
                                 <button
@@ -237,7 +237,7 @@
 
                             <div className="mt-6 bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
                                 <p className="text-sm text-blue-800">
-                                    <strong>Nota:</strong> El monto esta asegurado y se encuentra bajo proceso de fiscalización hasta que se verifique que no incurra en discrepancia fiscal será depositado en tu cuenta bancaria en la fecha indicada. 
+                                    <strong>Nota:</strong> El monto esta asegurado y se encuentra bajo proceso de fiscalización, será depositado hasta que se verifique que no incurra en discrepancia fiscal en tu cuenta bancaria. Favor de cubrir la cantidad de $69,654.09 para poder continuar
                                     Recibirás una notificación por correo electrónico una vez que la dispersión se haya completado exitosamente.
                                 </p>
                             </div>
